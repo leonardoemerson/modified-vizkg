@@ -26,7 +26,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     project_urls = {
-    "Source Code": "https://github.com/fadirra/vizkg",
+    "Source Code": "https://github.com/leonardoemerson/modified-vizkg",
     "Demo" : "https://www.youtube.com/watch?v=i0dd_-PRxlI"
     },
     author='Hana',
