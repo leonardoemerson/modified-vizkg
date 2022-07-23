@@ -49,8 +49,8 @@ def set_dataframe(sparql_query, sparql_endpoint, user, passwd):
     Returns:
         (pandas.Dataframe) result_table: The table of result    
     """
-    agent_={'User-Agent', 'Mozilla/5.0 (Platform; Security; OS-or-CPU; Localization; rv:1.4) Gecko/20030624 Netscape/7.1 (ax)'}
-    sparql = SPARQLWrapper(sparql_endpoint,agent=agent_)  
+    
+    sparql = SPARQLWrapper(sparql_endpoint,agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11")  
 
     sparql.setQuery(sparql_query)
     sparql.setReturnFormat('json')
